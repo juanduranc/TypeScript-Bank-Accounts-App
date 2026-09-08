@@ -1,2 +1,2 @@
-# TypeScript-Bank-Accounts-App
+# TypeScript Bank Accounts App
 Showcasing my skills in TypeScript + Vite React
