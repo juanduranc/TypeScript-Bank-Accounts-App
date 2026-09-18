@@ -68,13 +68,13 @@ class BankAccount {
   }
 }
 
-// MAP OF INSTANCE OF A CLASS --------------------------------------
+// Mapping for each INSTANCE of a CLASS --------------------------------------
 // Using Map to store each BankAccount Instance
 // to be pulled by id (number) call function getAccountFromPrompt
 const accounts = new Map<number, BankAccount>();
 
 // Global references for React UI bindings--------------------------
-// Tells TypeScript these functions exists globally and what its signature looks like.
+// Tells TypeScript these functions exists globally
 let askQuestion: (query: string) => Promise<string>;
 let printLog: (message: string) => void;
 
